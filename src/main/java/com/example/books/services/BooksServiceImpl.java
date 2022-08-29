@@ -19,7 +19,7 @@ public class BooksServiceImpl  implements BooksService{
     }
 
     @Override
-    public ArrayList<Book> getBooks() {
+    public ArrayList<Book> getBooks(String name) {
         return getLibrary();
     }
 }
